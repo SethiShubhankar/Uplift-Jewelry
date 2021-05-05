@@ -1,0 +1,108 @@
+@font-face { font-family: Bebas; src: url('/Fonts/Bebas_Neue/BebasNeue-Regular.ttf'); }
+@font-face { font-family: cormorant; src: url('/Fonts/Cormorant/Cormorant-Medium.ttf'); }
+@font-face { font-family: maharlika; src: url('/Fonts/Maharlika-Regular.ttf'); }
+@font-face { font-family: poppins; src: url('/Fonts/Poppins/Poppins-Bold.ttf'); }
+body {
+    background-color: #e3e3de;
+    height: 100vh;
+}
+
+#maintitle {
+    font-family: maharlika;
+    color: #265935;
+    text-align: center;
+}
+
+/* Only for non-index */
+
+#main_title_container {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    z-index: 1;
+}
+
+/* end */
+
+.maintext {
+    font-family: cormorant;
+    color: #2B4B42;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    padding: 20px;   
+    transform: rotate(180deg);
+}
+
+.sidebar {
+    position: fixed;
+    height: 605px;
+    top: 50%;
+    margin-top: -302.5px;
+}
+
+.maintext:hover {
+    color: #BF621E;
+}
+
+#homepage {
+    text-decoration: none;
+}
+
+#instaLink {
+    text-decoration: none;
+}
+
+#abtMel{
+    text-decoration: none;
+}
+
+#ringpage {
+    text-decoration: none;
+}
+
+#abrydabout {
+    text-decoration: none;
+}
+
+#contactinfo {
+    text-decoration: none;
+}
+
+/* End of Base CSS */
+
+.vl {
+    border-left: 3px solid #2B4B42;
+    height: 35rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.5px;
+    margin-top: -15rem;
+    top: 50%;
+}
+
+.abrydInfo {
+    color: #2B4B42;
+    font-family: cormorant;
+    position: absolute;
+    width: 18.5rem;
+    left: 55%;
+    top: 30%;
+}
+
+.imgHolder {
+    position: absolute;
+    left: 32%;
+    margin-left: -15rem;
+    top: 50%;
+    margin-top: -10rem;
+}
+
+.abrIMG {
+    width: 30rem;
+    height: 20rem;
+}
+
+
+
